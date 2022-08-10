@@ -1,0 +1,54 @@
+/* tag selectors */
+
+img {
+  width: 100%;
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+
+a {
+  color: #737491;
+  text-decoration: none;
+}
+
+/* class selectors */
+
+.vertically-centered {
+  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 40rem;
+}
+
+.first-row {
+  height: 3rem;
+}
+
+.likes {
+  height: 50%;
+}
+
+/* custom classes */
+
+.border-dashed {
+  border: 1px;
+  border-style: dashed;
+}
+
+.bg-purple {
+  background-color: #dadfff;
+}
+
+.title {
+  color: #737491;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.paragraph {
+  color: #BABABA;
+  font-family: 'Montserrat', sans-serif;
+}
