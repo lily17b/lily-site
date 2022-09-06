@@ -16,7 +16,12 @@ html {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
   height: -webkit-fill-available;
+  height: 100vh;
+  margin: 0 auto;
 }
 
 /* class selectors */
