@@ -12,7 +12,11 @@ a {
 }
 
 html {
-  -webkit-text-size-adjust: none;
+  height: -webkit-fill-available;
+}
+
+body {
+  height: -webkit-fill-available;
 }
 
 /* class selectors */
