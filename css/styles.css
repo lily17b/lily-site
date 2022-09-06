@@ -17,6 +17,8 @@ html {
 
 body {
   height: -webkit-fill-available;
+  height: 100vh;
+  margin: 0 auto;
 }
 
 /* class selectors */
