@@ -27,9 +27,8 @@ body {
 /* class selectors */
 
 .vertically-centered {
+  height: 100vh;
   height: -webkit-fill-available;
-  min-height: 100%;
-  min-height: 100vh;
   display: flex;
   align-items: center;
 }
